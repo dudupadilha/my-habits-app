@@ -5,14 +5,13 @@ Este projeto é um aplicativo mobile para gerenciamento de hábitos diários. El
 ## Principais Funcionalidades
 
 - Lista de hábitos
-
+<img src="/imgs/img1.jpeg" alt="tela gome">
 - Criação de hábitos
-
+<img src="/imgs/img3.jpeg" alt="tela criação">
 - Exclusão de hábitos
-
+<img src="/imgs/img4.jpeg" alt="tela exclusão">
 - Detalhes de hábitos
-
-- Marcação de hábitos concluídos diariamente
+<img src="/imgs/img2.jpeg" alt="tela detalhes">
 
 ## Como Executar
 
