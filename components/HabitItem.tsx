@@ -57,7 +57,7 @@ export function HabitItem({ nome, onPress }: HabitItemProps) {
       <Ionicons
         name={feito ? 'checkmark-circle' : 'ellipse-outline'}
         size={24}
-        color={feito ? '#4CAF50' : '#666'} // Verde para concluído, cinza para não concluído
+        color={feito ? '#4CAF50' : '#666'}
       />
       <Text style={[styles.text, feito && styles.completedText]}>{nome}</Text>
     </Pressable>
@@ -69,7 +69,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     padding: 16,
     alignItems: 'center',
-    backgroundColor: '#fff', // Fundo branco
+    backgroundColor: '#fff',
     borderRadius: 8,
     marginBottom: 10,
     elevation: 2,
@@ -77,13 +77,13 @@ const styles = StyleSheet.create({
   text: {
     marginLeft: 12,
     fontSize: 16,
-    color: '#333', // Texto escuro
+    color: '#333', 
   },
   completed: {
-    backgroundColor: '#E8F5E9', // Verde muito claro para completado
+    backgroundColor: '#E8F5E9',
   },
   completedText: {
     textDecorationLine: 'line-through',
-    color: '#666', // Texto cinza para completado
+    color: '#666', 
   },
 });
