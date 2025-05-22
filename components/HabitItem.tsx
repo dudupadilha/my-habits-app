@@ -28,7 +28,7 @@ export function HabitItem({ nome, onPress }: HabitItemProps) {
         options,
         destructiveButtonIndex,
         cancelButtonIndex,
-        tintColor: '#4CAF50', // Cor verde
+        tintColor: '#4CAF50',
       },
       (buttonIndex) => {
         if (buttonIndex === 0) setFeito(!feito);
@@ -42,6 +42,7 @@ export function HabitItem({ nome, onPress }: HabitItemProps) {
               { text: 'Excluir', style: 'destructive' },
             ]
           );
+          console.log('item excluido');
         }
       }
     );

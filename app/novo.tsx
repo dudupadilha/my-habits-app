@@ -26,7 +26,7 @@ export default function Novo() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, padding: 20, paddingTop: 60 },
+  container: { flex: 1, padding: 20, paddingTop: 60, backgroundColor:'#fff'},
   label: { fontSize: 18, marginBottom: 10 },
   input: {
     borderWidth: 1,

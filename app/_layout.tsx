@@ -6,7 +6,7 @@ export default function Layout() {
   return (
     <ActionSheetProvider>
       <View style={{ flex: 1 }}>
-        <Slot />
+        <Slot screenOptions={{}}/>
       </View>
     </ActionSheetProvider>
   );
